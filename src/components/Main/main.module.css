@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    height: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.layout__title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.layout__description {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.buttonsWrapTest {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonTest {
+    width: 100px;
+    height: 50px;
+}
+
+.locationListWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #bebebe;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 0px 10px 0px 10px;
+}
+
+#buttonAddNew {
+    margin-top: 10px;
+}
+
+.locationListWrap form {
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    align-items: end;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.locationList {
+
+}
+
+.locationList__title {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pointers_list_preloader {
+    margin-top: 50px;
+}
+
+.locationList__element {
+    border: 1px solid #919191;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px 5px 10px 5px;
+    text-align: center;
+}
+
+.locationList__elemen__viewMode {
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.locationList__element__editMode {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.yandexMapWrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+

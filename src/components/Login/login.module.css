@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.form_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.form_wrap form {
+    margin-bottom: 10px;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.textfield {
+    margin-top: 10px;
+}
+
+.registerLink {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.errorValidate {
+    margin-top: 10px;
+
+}
