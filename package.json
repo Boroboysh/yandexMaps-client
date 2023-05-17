@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "serverUrl" : "http://127.0.0.1:8081/api",
+  "serverUrl" : "https://bc91-109-195-139-62.ngrok-free.app/api/",
   "private": true,
   "dependencies": {
     "@consta/uikit": "^4.8.0",
